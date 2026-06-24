@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About</title>
+    <style>
+        *{
+    color:white;
+    margin: 0px;
+    padding: 0px;
+    background-color:#866EC7;
+    }
+    .nav{
+        display: flex;
+        gap:80px;
+        /* justify-content: space-around; */
+        margin-right: 100px;
+
+    }
+
+    .header a{
+        text-decoration: none;
+        /* pading-left: 60px; */
+    }
+
+
+    .nav a{
+        font-size: 15px;
+        font-weight: 700;
+    }
+
+
+    .nav a:hover{
+        border:2px solid white;
+        padding: 10px;
+        border-radius: 10px;
+    }
+
+    .port{
+        padding-left: 8px;
+        font-size: 20px;
+        font-weight: 800;
+        margin-left: 150px;
+    }
+
+    .header{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height:60px;
+        width:100%;
+        text-decoration: none;
+        /* background-color: black; */
+
+
+    }
+
+    .nav a{
+        text-decoration: none;
+        display: flex;
+        /* /* justify-content: space-between; */
+
+} 
+    
+
+    .about{
+        display: flex;
+        flex-direction: column;
+        /* justify-content: flex-start; */
+        /* align-items: center; */
+        margin-top:10px;
+        width:80%;
+        margin-left: 10px;
+        padding-left: 100px;
+    }
+
+    .about-sec{
+        /* margin-left: 90px; */
+        margin-top: 50px;
+        display: flex;
+    }
+
+    /* .about h1{
+        margin-top: 90px;
+        margin-left: -100px;
+        text-align: start;
+    } */
+
+    h1{
+        padding-top: 80px;
+        padding-bottom: 5px;
+    }
+
+    h2{
+        padding-bottom: 5px;
+    }
+
+
+    .image{
+        /* margin-left: 50px;
+        margin-top: 40px; */
+        border-radius: 10px;
+        outline: 3px solid #111844;
+    }
+
+    .img{
+        margin-top: 100px;
+        margin-left: 150px;
+    }
+
+
+    button{
+        background-color: white;
+        color:black;
+        border-radius: 20px;
+        /* padding-left: 10px;
+        padding-top: 10px;
+        padding-bottom: 20px; */
+        padding-left: 10px;
+        padding-right: 10px;
+        /* padding-top: 10px; */
+        /* padding-bottom: 10px; */
+        height: 40px;
+        width: 120px;
+        margin-top: 20px;
+        margin-bottom: 10px;
+        border:2px solid black;
+        box-shadow: 0 0 20px white;
+
+    }
+
+    /* button:hover{
+        box-shadow: 0 0 20px white;
+    } */
+
+    span{
+        color:#111844;
+    }
+    </style>
+</head>
+<body>
+    <header class="header">
+        <a href="" class="port">Portfolio</a>
+        <nav class="nav">
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="services.html">Services</a>
+            <a href="skills.html">Skills</a>
+            <a href="contact.html">Contact</a>
+
+        </nav>
+    </header>
+    <hr>
+
+
+    <div class="about-sec">
+        <div class="img">
+            <img src="imgae1.jpeg" height="200px" width="200px" class="image">
+        </div>
+        <div class="about">
+            <h1>About <span>Me</span></h1>
+            <h2>Frontend Developer</h2>
+            <p>I am a Frontend Developer who loves building websites using HTML,<br>
+                CSS, and JavaScript. I enjoy creating responsive and attractive web pages 
+            and <br> Iam always eager to learn new skills and technologies 
+            to improve my development abilities.
+            </p>
+            <button class="btn">Read More</button>
+        </div>
+    </div>
+</body>
+</html>

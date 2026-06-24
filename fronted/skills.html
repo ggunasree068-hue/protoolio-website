@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Skills</title>
+    <style>
+        *{
+    color:white;
+    margin: 0px;
+    padding: 0px;
+    background-color:#866ec7;
+}
+.nav{
+    display: flex;
+    gap:80px;
+    /* justify-content: space-around; */
+    margin-right: 100px;
+
+}
+
+.header a{
+    text-decoration: none;
+    /* pading-left: 60px; */
+}
+
+/* .header a:hover{
+    border:2px solid white;
+    padding:5px;
+} */
+
+
+.nav a{
+    font-size: 15px;
+    font-weight: 700;
+}
+
+
+.port{
+    padding-left: 150px;
+    font-size: 20px;
+    font-weight: 800;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height:60px;
+    width:100%;
+    text-decoration: none;
+    /* position: fixed; */
+    /* background-color: black; */
+
+
+}
+
+
+.nav a:hover{
+    border:2px solid white;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+
+.nav a{
+    text-decoration: none;
+    display: flex;
+    /* /* justify-content: space-between; */
+
+} 
+
+h1{
+    text-align: center;
+    margin-top: 60px;
+}
+
+
+.skills{
+    display: grid;
+    gap:8rem;
+    grid-template-columns: repeat(2, 4fr);
+    justify-content: space-around;
+    margin-left: 150px;
+    margin-right: 80px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    /* margin: auto; */
+    gap:6rem;
+
+}
+
+.bars{
+    margin-bottom: 30px;
+    margin-right:60px ;
+
+}
+
+.bars span{
+    float:right;
+    margin-right: 50px;
+    margin-top: -20px;
+}
+
+.light-box{
+    height:0.5rem;
+    background-color: white;
+    border-radius: 10px;
+    margin-top: 7px;
+}
+
+.btn-box{
+    height:0.5rem;
+    background-color:black;
+    border-radius: 10px;
+    margin-top: -8px;
+}
+
+.python{
+    width:90%;
+    /* background-color: aqua; */
+}
+
+.sql{
+    width:80%;
+}
+
+.django{
+    width:80%;
+}
+
+.ai{
+    width:80%;
+}
+
+
+.html{
+    width:90%;
+}
+
+.css{
+    width:80%;
+}
+
+.js{
+    width:80%;
+}
+
+.reactjs{
+    width:80%;
+}
+</style>
+</head>
+<body>
+    <header class="header">
+        <a href="" class="port">Portfolio</a>
+        <nav class="nav">
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="services.html">Services</a>
+            <a href="slills.html">Skills</a>
+            <a href="contact.html">Contact</a>
+
+        </nav>
+    </header>
+    <hr>
+    <hr>
+    <section>
+        <h1> My Skills</h1>
+        <div class="skills">
+            <div>
+
+                <div class="bars">
+                    <h3>Python</h3>
+                    <span>90%</span>
+                    <div class="light-box"></div>
+                    <div class="btn-box python"></div>
+                </div>
+
+
+                <div class="bars">
+                    <h3>SQL</h3>
+                    <span>80%</span>
+                    <div class="light-box"></div>
+                    <div class="btn-box sql"></div>
+                </div>
+
+
+                <div class="bars">
+                    <h3>Django</h3>
+                    <span>80%</span>
+                    <div class="light-box"></div>
+                    <div class="btn-box django"></div>
+                </div>
+
+                <div class="bars">
+                    <h3>AI & ML</h3>
+                    <span>80%</span> 
+                    <div class="light-box"></div>
+                    <div class="btn-box ai"></div>
+                </div>
+            </div> 
+
+            <div>
+
+                <div class="bars">
+
+                    <h3>HTML</h3>
+                    <span>90%</span>
+                    <div class="light-box"></div>
+                    <div class="btn-box html"></div>
+                </div>
+
+                <div class="bars">
+                    <h3>CSS</h3>
+                    <span>80%</span>
+                    <div class="light-box"></div>
+                    <div class="btn-box css"></div>
+                </div>
+                <div class="bars">
+                    <h3>JavaScript</h3>
+                    <span>80%</span>
+                    <div class="light-box"></div>
+                    <div class="btn-box js"></div>
+                </div>
+
+                <div class="bars">
+                    <h3>ReactJS</h3>
+                    <span>80%</span>
+                    <div class="light-box"></div>
+                    <div class="btn-box reactjs"></div>
+                </div>
+            
+            </div>
+        </div>
+    </section>
+</body>
+</html>

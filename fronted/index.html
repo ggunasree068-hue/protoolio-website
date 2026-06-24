@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+    *{
+    color:white;
+    margin: 0px;
+    padding: 0px;
+    background-color:#866EC7;
+}
+.nav{
+    display: flex;
+    gap:80px;
+    /* justify-content: space-around; */
+    margin-right: 100px;
+
+}
+
+.header a{
+    text-decoration: none;
+    /* pading-left: 60px; */
+}
+
+
+.nav a{
+    font-size: 15px;
+    font-weight: 700;
+}
+
+.port{
+    padding-left: 8cqi;
+    font-size: 20px;
+    font-weight: 800;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height:60px;
+    width:100%;
+    text-decoration: none;
+    /* background-color: black; */
+
+
+}
+
+.nav a{
+    text-decoration: none;
+    display: flex;
+    /* /* justify-content: space-between; */
+
+} 
+
+.content{
+    margin-left: 100px;
+    margin-top: 100px;  
+}  
+
+
+.content h1{
+    margin-bottom: 5px;
+}
+
+.content h3{
+    font-size: 30px;
+    margin-bottom: 5px;
+}
+
+
+p{
+    margin-bottom: 40px;
+}
+
+
+.img{
+    margin-left: 350px;
+    margin-top: -200px;
+    border:2px solid transparent;
+    border-radius: 50%;
+}
+
+
+.image{
+    border-radius: 50%;
+    margin-top: 10px;
+    animation:Floatimage 2s ease-in-out 2s infinite;
+}
+
+
+@keyframes Floatimage{
+    0%{
+        transform: translateY(0);
+    }
+    50%{
+        transform: translateY(2rem);
+    }
+}
+.content a{
+    border:2px solid white;
+    padding: 10px;
+    border-radius: 50%;
+    margin-right: 20px;
+    margin-top: 20px;
+    margin-bottom: 300px;
+}
+
+
+.content a:hover{
+    background-color:white;
+    color:black
+}
+.icon{
+    margin-bottom: -250px;
+    display: flex;
+    margin-top: -20px;
+}
+
+
+.content h3 span{
+    color:#FF3E9B;
+}
+
+.btn{
+    margin-left: 100px;
+    margin-top: 10px; 
+    text-decoration: none;
+    border: 2px solid white;
+    padding: 15px;
+    border-radius: 4rem;
+    margin-top: -500px;
+}
+.btn:hover{
+    background-color: white;
+    color: black;
+}
+</style>
+</head>
+<body>
+    <header class="header">
+        <a href="" class="port">Portfolio</a>
+        <nav class="nav">
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="services.html">Services</a>
+            <a href="skills.html">Skills</a>
+            <a href="contact.html">Contact</a>
+
+        </nav>
+    </header>
+
+    <hr>
+
+    <main>
+        <div class="content">
+            <h2>Hi, Myself</h2>
+            <h1>Gangireddy Gunasree</h1>
+            <h3>And <span>Iam a Frontend Developer</span></h3>
+            <p>Passionate Frontend Developer with skills in HTML, CSS, JavaScript,<br> and responsive web design. I enjoy creating clean, user-friendly, <br> and visually appealing websites that provide a great user experience across all devices.</p>
+
+
+            <div class="icon">
+
+                <a href=""><i class="fa-brands fa-facebook"></i></a>
+                <a href=""><i class="fa-brands fa-instagram"></i></a>
+                <a href=""><i class="fa-brands fa-twitter"></i></a>
+                <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                <a href=""><i class="fa-brands fa-github"></i></a>
+
+                <div class="img">
+                <image src="imgae1.jpeg" height="250px" width="250px"class="image"></image>
+            </div
+        
+            </div>
+        </div>
+        <div>
+            <button class="btn">Download CV</button>
+        </div>
+    </main>
+</body>
+</html>

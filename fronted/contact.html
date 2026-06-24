@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            color: white;
+            font-family: Arial, sans-serif;
+        }
+
+        body{
+            background-color: #866EC7;
+        }
+
+        /* Header */
+
+        .header{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px 50px;
+        }
+
+        .port{
+            text-decoration: none;
+            font-size: 25px;
+            font-weight: bold;
+        }
+
+        .nav{
+            display: flex;
+            gap: 50px;
+        }
+
+        .nav a{
+            text-decoration: none;
+            font-size: 16px;
+            font-weight: bold;
+        }
+
+        hr{
+            border: 1px solid rgba(255,255,255,0.3);
+        }
+
+        /* Contact Section */
+
+        h1{
+            text-align: center;
+            margin-top: 40px;
+            margin-bottom: 40px;
+            font-size: 45px;
+        }
+
+        span{
+            color: #111844;
+        }
+
+        .cont-det{
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            margin-bottom: 20px;
+        }
+
+        .input{
+            width: 350px;
+            padding: 12px;
+            border: none;
+            border-radius: 10px;
+            background-color: #ADB2D4;
+            color: black;
+            outline: none;
+        }
+
+        .input::placeholder{
+            color: #333;
+        }
+
+        .txt{
+            display: block;
+            width: 720px;
+            height: 180px;
+            margin: 20px auto;
+            padding: 15px;
+            border-radius: 10px;
+            border: none;
+            background-color: #ADB2D4;
+            color: black;
+            resize: none;
+            outline: none;
+        }
+
+        .txt::placeholder{
+            color: #333;
+        }
+
+        button{
+            display: block;
+            margin: 20px auto;
+            padding: 12px 30px;
+            border: none;
+            border-radius: 25px;
+            background-color: #111844;
+            color: white;
+            font-size: 16px;
+            cursor: pointer;
+            box-shadow: 0 0 20px #111844;
+        }
+
+        button:hover{
+            transform: scale(1.05);
+            transition: 0.3s;
+        }
+
+        /* Mobile Responsive */
+
+        @media(max-width:768px){
+
+            .header{
+                flex-direction: column;
+                gap: 15px;
+            }
+
+            .nav{
+                flex-wrap: wrap;
+                justify-content: center;
+                gap: 20px;
+            }
+
+            .cont-det{
+                flex-direction: column;
+                align-items: center;
+            }
+
+            .input{
+                width: 90%;
+            }
+
+            .txt{
+                width: 90%;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <header class="header">
+        <a href="#" class="port">Portfolio</a>
+
+        <nav class="nav">
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="services.html">Services</a>
+            <a href="skills.html">Skills</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+    </header>
+
+    <hr>
+
+    <h1>Contact <span>Me</span></h1>
+
+    <div class="cont-det">
+        <input type="text" placeholder="Enter Your Name" class="input">
+        <input type="email" placeholder="Enter Your Email" class="input">
+    </div>
+
+    <div class="cont-det">
+        <input type="tel" placeholder="Enter Your Mobile" class="input">
+        <input type="text" placeholder="Enter Email Subject" class="input">
+    </div>
+
+    <textarea placeholder="Type Your Message Here" class="txt"></textarea>
+
+    <button>Send Message</button>
+
+</body>
+</html>
